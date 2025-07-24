@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Common CSS */
 * {
   box-sizing: border-box;
@@ -6,42 +15,196 @@
 }
 
 .Container {
-  max-width: 1100px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 /* Navbar section start  */
 
 .navbar {
-  border: 2px solid tomato;
+  /* border: 2px solid tomato; */
   display: flex;
   justify-content: space-between;
   height: 70px;
   margin-top: 30px;
 }
-.navbar img{
-    height:60px;
+.logo {
+  height: 70px;
 }
 
-.list-item{
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  list-style: none;
+  height: 70px;
+}
+.list-item a {
+  text-decoration: none;
+}
+.list-item-home,
+.list-item-cart {
+  color: #252432;
+  font-size: 20px;
+  font-weight: bold;
+}
+.list-item-shop,
+.list-item-about {
+  color: #8987a1;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* Banner section start */
+.banner-container {
+  /* border: 2px solid tomato; */
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-left {
+  width: 570px;
+  height: 290px;
+  margin-top: 160px;
+}
+
+.title {
+  font-size: 55px;
+  color: #000000;
+}
+.title-span {
+  font-size: 55px;
+  color: #e95a08;
+}
+
+.title-paragraph {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 13px;
+}
+
+.banner-right {
+  width: 570px;
+  height: 355px;
+  margin-top: 106px;
+}
+
+/* Plans section style */
+.plans-container {
+  /* border: 2px solid tomato; */
+  margin-top: 120px;
+  height: 130px;
+  display: wrap;
+  align-content: center;
+  justify-items: center;
+  text-align: center;
+}
+.plans-title {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 40px;
+}
+.plans-title-span {
+  color: rgb(233, 90, 8);
+}
+.plans-subtitle {
+  width: 800px;
+  height: 50px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.plans-card-container {
+  /* border: 2px solid tomato; */
+  margin-top: 49px;
+  height: 965px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:19px;
+  
+}
+.plans-card {
+  width: 270px;
+  height: 450px;
+  text-align: center;
+}
+
+.card-img {
+  width: 270px;
+  height: 320px;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.card-price {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-primary {
+  width: 270px;
+  height: 50px;
+  font-weight: bold;
+  background-color: rgb(233, 90, 8);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 26px, 50px, 26px, 50px;
+  margin-top: 20px;
+}
+
+ /* Plants Lover Section */
+
+ .plants-lover-container{
+    /* border:2px solid tomato; */
+    height: 597px;
+    margin-top:200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:48px;
-    list-style: none;
-    height:70px;
-}
-.list-item a{
-    text-decoration: none;
     
-}
-.list-item-home, .list-item-cart{
-    color:#252432;
-    font-size: 18px;
+ }
+
+ .plants-lover-img{
+     width:540px;
+    height: 597px;
+ }
+
+ .lover-img{
+    width:540px;
+    height: 597px;
+
+ }
+ .lover-badge{
+    width:280px;
+    height: 280px;
+    margin-left: 360px;
+    margin-top:-500px;
+ }
+
+ .plans-lover-content{
+    width:540px;
+    height: 520px;
+    margin-top: 38px;
+    margin-left:60px;
+ }
+.lover-title{
+    height: 137px;
+    font-size: 50px;
     font-weight: bold;
+   
 }
-.list-item-shop, .list-item-about{
-    color:#8987A1;
-    font-size: 18px;
+.lover-item{
+    margin-top:20px;
+}
+.lover-item li{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 17px;
     font-weight: 400;
+    margin-top:30px
+
 }
