@@ -311,7 +311,7 @@
 
 /* Join section start */
 .join-section{
-  border:2px solid tomato;
+  /* border:2px solid tomato; */
   background-image: url(/assets/news-letter-bg.png);
   max-width:100%;
   height: 543px;
