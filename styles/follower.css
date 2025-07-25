@@ -192,9 +192,9 @@
   }
 }
 .lover-badge {
-      animation: spin 8s linear infinite;
-      width: 100px;
-      height: 100px;
+  animation: spin 8s linear infinite;
+  width: 100px;
+  height: 100px;
 }
 
 .lover-badge {
@@ -204,8 +204,6 @@
   margin-top: -120px;
   position: absolute;
 }
-
-
 
 .plans-lover-content {
   width: 540px;
@@ -340,13 +338,11 @@ a {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  
 }
-.join-section h1{
-  color:white;
+.join-section h1 {
+  color: white;
   font-size: 50px;
-
-  }
+}
 .form-container {
   display: flex;
   justify-content: center;
@@ -359,8 +355,7 @@ a {
   width: 640px;
   height: 50px;
   text-align: left;
-  padding:20px;
-  
+  padding: 20px;
 }
 
 .subscribe-btn,
@@ -377,7 +372,7 @@ a {
   /* border: 2px solid tomato; */
   width: 1440px;
   height: 280px;
-  margin:0 auto;
+  margin: 0 auto;
 }
 
 .footer-container {
@@ -389,7 +384,6 @@ a {
   align-items: center;
   margin: 50px auto;
   /* margin-top: 50px; */
- 
 }
 .footer-logo {
   /* border: 2px solid tomato; */
@@ -437,4 +431,161 @@ a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 200px;
+}
+
+.display {
+  display: none;
+}
+
+/* Responsive website Mobile Phone */
+
+/* Navbar and banner section */
+@media screen and (max-width: 576px) {
+  .navbar {
+    /* border: 2px solid tomato; */
+    display: flex;
+    justify-content: space-between;
+    width: 361px;
+    height: 60px;
+    margin-top: 67px;
+    margin-left: 44px;
+  }
+  .logo {
+    width: 100px;
+    height: 50px;
+  }
+  .list-item-cart {
+    /* border: 1px solid tomato; */
+    width: 113px;
+    height: 30px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .list-item-shop,
+  .list-item-about,
+  .list-item-home {
+    display: none;
+  }
+  /* Banner section start */
+  .banner-container {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 28px;
+
+  }
+
+  .banner-left {
+    /* border: 2px solid tomato; */
+    width: 361px;
+    height: 160px;
+    margin-left: 18px;
+  }
+  .title,
+  .title-span {
+    width: 361px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+  }
+  .title-paragraph {
+    /* border: 2px solid tomato; */
+    font-size: 14px;
+    font-weight: 400;
+    width: 360px;
+    height: 80px;
+  }
+  .banner-right {
+    width: 393px;
+    height: 245px;
+  }
+
+  /* Plants section Responsive  */
+  .plans-container {
+    /* border:1px solid tomato; */
+    width: 393px;
+    height: 117px;
+    margin-left: 22px;
+   
+
+
+  }
+  .plans-title{
+    /* border:1px solid tomato; */
+  width: 393px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+
+  }
+  .plans-subtitle{
+    /* border:1px solid tomato; */
+    width:336px;
+    height:68px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .plans-card-container{
+    width: 362px;
+    height: 340px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+
+    
+  }
+  .plans-card{
+    /* border:1px solid tomato; */
+    width:195px;
+    height: 335px;
+    /* margin-top: 10px; */
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card-img{
+    width:193px;
+    height: 196px;
+
+  }
+  .card-title{
+    width: 100px;
+    height:12px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 46px;
+
+  }
+  .card-price{
+    width: 59px;
+    height:12px;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+    margin-top: 5px;
+  }
+  .plans-card .btn-primary{
+    width: 193px;
+    height: 50px;
+  }
+
+  
+  /* Plants-lover-container */
+  .plants-lover-container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 200px;
+  }
+  .lover-img{
+    width:361px;
+    height: 648px;
+  }
+  .lover-badge{
+    display: none;
+  }
+  
 }
