@@ -274,7 +274,7 @@
 }
 
 .left-img-1 {
-  background-image: url(../assets/deal-bloom.png);
+  background-image: url("../assets/deal-bloom.png");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
   width: 367px;
@@ -283,7 +283,7 @@
   padding: 70px;
 }
 .left-img-2 {
-  background-image: url(../assets/deal-ana.png);
+  background-image: url("../assets/deal-ana.png");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
   width: 367px;
@@ -308,7 +308,7 @@ a {
 }
 
 .latest-img-right {
-  background-image: url(../assets/deal-zabo.png);
+  background-image: url("../assets/deal-zabo.png");
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: darken;
   width: 700px;
@@ -330,7 +330,7 @@ a {
 /* Join section start */
 .join-section {
   /* border: 2px solid tomato; */
-  background-image: url(../assets/news-letter-bg.png);
+  background-image: url("../assets/news-letter-bg.png");
   background-image: linear-gradient();
 
   max-width: 1440px;
