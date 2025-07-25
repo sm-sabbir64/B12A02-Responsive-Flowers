@@ -157,7 +157,7 @@
   padding: 26px, 50px, 26px, 50px;
   margin-top: 20px;
 }
-.btn-primary:hover{
+.btn-primary:hover {
   background-color: rgb(160, 60, 14);
 }
 
@@ -182,6 +182,21 @@
   width: 540px;
   height: 597px;
 }
+
+@keyframes spin {
+  from {
+    transform: rotate(0 deg);
+  }
+  to {
+    transform: rotate (360deg);
+  }
+}
+.lover-badge {
+      animation: spin 8s linear infinite;
+      width: 100px;
+      height: 100px;
+}
+
 .lover-badge {
   width: 280px;
   height: 280px;
@@ -189,6 +204,8 @@
   margin-top: -120px;
   position: absolute;
 }
+
+
 
 .plans-lover-content {
   width: 540px;
@@ -217,15 +234,15 @@
   margin-bottom: 120px;
 }
 
-.latest-content{
+.latest-content {
   /* border:2px solid tomato; */
   height: 137px;
-   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.latest-title{
+.latest-title {
   height: 68px;
   font-size: 50px;
   font-weight: bold;
@@ -233,19 +250,17 @@
 
 .latest-title-span {
   color: rgb(233, 90, 8);
-
 }
-.latest-paragraph{
-  color:rgba(0, 0, 0, 0.5);
+.latest-paragraph {
+  color: rgba(0, 0, 0, 0.5);
   width: 700px;
   font-size: 18px;
   font-weight: 400px;
-  margin-top:18px;
- text-align: center;
-
+  margin-top: 18px;
+  text-align: center;
 }
 
-.latest-img-item{
+.latest-img-item {
   /* border:2px solid tomato; */
   margin-top: 120px;
   height: 423.13px;
@@ -253,162 +268,172 @@
   justify-content: center;
 }
 
-.latest-img-left{
-  width:367px;
-  height:423px;
+.latest-img-left {
+  width: 367px;
+  height: 423px;
 }
 
-.left-img-1{
+.left-img-1 {
   background-image: url(/assets/deal-bloom.png);
-  background-color:rgba(0, 0, 0, 0.4) ;
-  width:367px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  width: 367px;
   height: 200px;
   border-radius: 20px;
-  padding:70px;
+  padding: 70px;
 }
-.left-img-2{
+.left-img-2 {
   background-image: url(/assets/deal-ana.png);
-  background-color:rgba(0, 0, 0, 0.4) ;
-  width:367px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  width: 367px;
   height: 197px;
   margin-top: 23px;
   border-radius: 20px;
-  padding:70px;
+  padding: 70px;
 }
-.left-img-1 h3, a{
-  color:white;
+.left-img-1 h3,
+a {
+  color: white;
   display: flex;
   justify-content: center;
   font-size: 20px;
 }
-.left-img-2 h3, a{
-  color:white;
+.left-img-2 h3,
+a {
+  color: white;
   display: flex;
   justify-content: center;
   font-size: 20px;
 }
 
-.latest-img-right{
+.latest-img-right {
   background-image: url(/assets/deal-zabo.png);
-  background-color:rgba(0, 0, 0, 0.4) ;
-  width:700px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+  width: 700px;
   height: 420px;
   margin-left: 70px;
   border-radius: 20px;
-  padding:180px;
-
+  padding: 180px;
 }
-.latest-img-right h1{
-  width:700;
-  color:white;
+.latest-img-right h1 {
+  width: 700;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 30px;
-
 }
 
 /* Join section start */
-.join-section{
-  /* border:2px solid tomato; */
+.join-section {
+  /* border: 2px solid tomato; */
   background-image: url(/assets/news-letter-bg.png);
-  max-width:100%;
-  height: 543px;
-  background-size: cover;
 
-
+  max-width: 1440px;
+  height: 530px;
+  /* background-size: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
-.join-container{
-  margin-top: 200px;
+.join-section h1{
+  color:white;
+  font-size: 50px;
 
-}
-.join-title{
-color:white;
-font-size: 50px;
-font-weight: bold;
-margin-left: 500px;
-
-}
-
-.form-container{
+  }
+.form-container {
   display: flex;
   justify-content: center;
-  width:830px;
+  width: 830px;
   height: 50px;
-  margin-left: 400px;
-  margin-top: 30px;
-
+  /* margin-left: 400px;
+  margin-top: 30px; */
+  margin-top: 20px;
 }
-.input-btn{
-  width:640px;
+.input-btn {
+  width: 640px;
   height: 50px;
-
+  text-align: left;
+  padding:20px;
+  
 }
 
-.subscribe-btn, .btn-primary{
-  margin-top:0px;
-
+.subscribe-btn,
+.btn-primary {
+  margin-top: 0px;
 }
-.subscribe-btn:hover{
+.subscribe-btn:hover {
   background-color: rgb(160, 60, 14);
 }
 
 /* Footer section start */
 
-.footer{
-  /* border:2px solid tomato; */
-  max-width: 100%;
-  height: 350px;
+.footer {
+  /* border: 2px solid tomato; */
+  width: 1440px;
+  height: 348px;
 }
 
-.footer-container{
-  /* border:2px solid tomato; */
-  width:1120px;
-  height:248px;
+.footer-container {
+  /* border: 2px solid tomato; */
+  width: 1120px;
+  height: 248px;
   display: flex;
-  justify-content: space-evenly;
-  margin:auto;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 50px;
 }
-.footer-logo{
-  width:359px;
-  height:178px;
+.footer-logo {
+  /* border: 2px solid tomato; */
+  width: 359px;
+  height: 178px;
   margin-top: 40px;
 }
-
-.logo-img{
+.logo-img {
   width: 135px;
-  height:82px;
+  height: 82px;
+}
+.footer-logo-title {
+  color: rgba(0, 0, 0, 0.5);
+  width: 359px;
+  height: 80px;
 }
 
-.footer-logo-title{
-  color:rgba(0, 0, 0, 0.5);
-  width:359px;
-  height:80px;
+.footer-item {
+  /* border: 2px solid tomato; */
+  margin-left: 100px;
+  height: 248px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-right: 100px;
 }
-.footer-container ul{
-  color:rgb(107, 114, 128);
-}
-.footer-container a{
-  color:rgb(107, 114, 128);
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-}
-.footer-container ul{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
+
+.menu-list {
+  /* border: 2px solid tomato; */
+  color: rgb(107, 114, 128);
   list-style: none;
-  margin-top: 10px;
-  margin-right:100px;
-  align-items: center;
+  text-align: left;
+  width: 120px;
+  height: 248px;
 }
 
-.social-icon{
-  margin-top:20px;
-  margin-left: 0px;
+.menu-list li {
+  margin-top: 22px;
 }
-.social-icon img{
-  margin-left: 30px;
+
+.social-icon {
+  /* border: 2px solid tomato; */
+  width: 216px;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 200px;
 }
