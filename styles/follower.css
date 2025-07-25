@@ -332,14 +332,14 @@ a {
   /* border: 2px solid tomato; */
   background-image: url("../assets/news-letter-bg.png");
   background-image: linear-gradient();
-
   max-width: 1440px;
-  height: 530px;
+  height: 533px;
   /* background-size: cover; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
   
 }
 .join-section h1{
@@ -352,8 +352,7 @@ a {
   justify-content: center;
   width: 830px;
   height: 50px;
-  /* margin-left: 400px;
-  margin-top: 30px; */
+  /* margin-left: 400px; */
   margin-top: 20px;
 }
 .input-btn {
@@ -377,7 +376,8 @@ a {
 .footer {
   /* border: 2px solid tomato; */
   width: 1440px;
-  height: 348px;
+  height: 290px;
+  margin:0 auto;
 }
 
 .footer-container {
@@ -389,6 +389,7 @@ a {
   align-items: center;
   margin: 0 auto;
   margin-top: 50px;
+ 
 }
 .footer-logo {
   /* border: 2px solid tomato; */
