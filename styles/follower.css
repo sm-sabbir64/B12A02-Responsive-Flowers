@@ -376,7 +376,7 @@ a {
 .footer {
   /* border: 2px solid tomato; */
   width: 1440px;
-  height: 290px;
+  height: 280px;
   margin:0 auto;
 }
 
@@ -387,8 +387,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  margin-top: 50px;
+  margin: 50px auto;
+  /* margin-top: 50px; */
  
 }
 .footer-logo {
